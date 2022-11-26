@@ -1,0 +1,78 @@
+.container {
+    background-color: gainsboro;
+    background-image: url('/images/Sched.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    align-items: stretch;
+    justify-content: space-between;
+    height:900px;
+    color:black;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spread {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container input {
+    border: 3px solid black;
+    background-color: transparent;
+    border-radius: 50px;
+    color: black;
+    font-size: 24px;
+}
+
+.container input[type=Name] {
+    width: 252px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.container input[type=bir]{
+    width: 334px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.container input[type=mail]{
+    width: 539px;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.con {
+    border: 100px solid transparent;
+}
+
+.end {
+    margin-top: 360px;
+    font-size: 20px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.time Button {
+    background-color: #33A9EC;
+    font-size: 24px;
+    color: white;
+}
+
+.coni {
+    margin-right: 100px;
+    margin-top: 20px;
+}

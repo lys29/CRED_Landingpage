@@ -1,0 +1,66 @@
+.container {
+    background-color: #5D1C1C;
+    align-items: center;
+    justify-content: space-between;
+    height:900px;
+    margin-bottom:20px;
+    border: 100px solid #5D1C1C;
+    color:white;
+    display: flex;
+}
+
+.con {
+    float: left;
+}
+
+.con input {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 3px solid black;
+    color: white;
+    justify-content: space-around;
+}
+
+.con input[type=Name] {
+    width: 630px;
+    height: 46px;
+}
+
+.con input[type=Address] {
+    width: 630px;
+    height: 103px;
+}
+
+.con input[type=Add] {
+    width: 310px;
+    height: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.last {
+    display: flex;
+}
+
+.last1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.con Button {
+    background-color: white;
+    color: black;
+    border:3px solid black;
+    width: 289px;
+    height: 43px;
+    border-radius: 11px;
+}
+
+.con h5 {
+    font-size: 32px;
+}
+
+.con img {
+    float: right;
+}

@@ -1,0 +1,46 @@
+.container {
+    background-color: gainsboro;
+    background-image: url('/images/Login.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    align-items: stretch;
+    align-items: center;
+    justify-content: space-between;
+    height:900px;
+    margin-bottom:20px;
+    border: 2px solid gainsboro;
+}
+
+.con h2 {
+    font-size: 48px;
+}
+
+.con input {
+    width: 481px;
+    height: 66px;
+    background-color: transparent;
+    border-radius: 80px;
+    border: 2px solid #1E45A9;
+    margin-top: 30px;
+    color: black;
+    font-size: 30px;
+}
+
+.con {
+    border: 100px solid transparent;
+}
+
+.con Button {
+    background-color: #3E92F4;
+    font-size: 36px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.con h4 {
+    font-size: 36px;
+}
+
+.con p {
+    font-size: 20px;
+}
