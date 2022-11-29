@@ -34,10 +34,10 @@ const Create = () => {
                                 </div>
                                 <div className={styles.button}>
                                     <div className={styles.first}>
-                                        <Button variant='primary'>Sign in instead</Button>
+                                        <a href='/Log'><Button variant='primary'>Sign in instead</Button></a>
                                     </div>
                                     <div className={styles.second}>
-                                        <Button variant='secondary'>Submit</Button>
+                                        <a href='/Log'><Button variant='secondary'>Submit</Button></a>
                                     </div>
                                 </div>
                                 <div className={styles.end}>

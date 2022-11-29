@@ -1,12 +1,31 @@
 .container {
-    background-color: #5D1C1C;
+    background-color: #922324;
     align-items: center;
     justify-content: space-between;
     height:900px;
     margin-bottom:20px;
-    border: 100px solid #5D1C1C;
+    border: 100px solid #922324;
     color:white;
     display: flex;
+    font-family: Roboto, sans-serif;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container ul li {
+    list-style:none;
+    margin: 40px 40px 0px 55px;
+    text-align: left;
+    justify-content: space-between;
+    margin-top:60px;
+    border: 50px solid transparent;    
+    background-color: #7E4647;
+    border-radius: 40px;
+    width: 743px;
+    height: 669px;
 }
 
 .con {
@@ -31,7 +50,15 @@
     height: 103px;
 }
 
-.con input[type=Add] {
+.mid input[type=Add] {
+    width: 310px;
+    height: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.con input[type=Num] {
     width: 310px;
     height: 48px;
     margin-top: 20px;
@@ -40,21 +67,14 @@
 
 .last {
     display: flex;
+    align-items: center;
+    margin-top: -30px;
 }
 
 .last1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-}
-
-.con Button {
-    background-color: white;
-    color: black;
-    border:3px solid black;
-    width: 289px;
-    height: 43px;
-    border-radius: 11px;
+    margin-top: 30px;
 }
 
 .con h5 {
@@ -63,4 +83,56 @@
 
 .con img {
     float: right;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    margin-right: -30px;
+}
+
+.container h1 {
+    font-size: 64px;
+    margin-left: -70px;
+    margin-top: -50px;
+}
+
+.last p {
+    margin-left: 20px;
+}
+
+.right {
+    margin-top: -40px;
+}
+
+.right h6{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn Button {
+    margin-right: 240px;
+    width: 130px;
+    height: 40px;
+    background-color: #D9D9D9;
+    color:black;
+    border-radius: 13px;
+    font-size: 20px;
+}
+
+.last Button {
+    font-size: 20px;
+    width:289px;
+    height: 43px;
+    background-color: #D9D9D9;
+    color:black;
+    border-radius: 13px;
+    border: 3px solid black;
+    text-align: left;
 }

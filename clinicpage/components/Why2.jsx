@@ -6,19 +6,19 @@ const Why2 = () => {
         <div className={styles.container}>
             <div>
                 <a href='/Ap'><Button><img src='/images/Appointment.png'/></Button></a>
-                <center><h6>Appointment</h6></center>
+                <center><h4>Appointment</h4></center>
             </div>
             <div>
                 <a href='/Cal'><Button><img src='/images/Calendar.png'/></Button></a>
-                <center><h6>Calendar</h6></center>
+                <center><h4>Calendar</h4></center>
             </div>
             <div>
                 <a href='/Schedule'><Button><img src='/images/Schedule.png'/></Button></a>
-                <center><h6>Schedule</h6></center>
+                <center><h4>Schedule</h4></center>
             </div>
             <div>
                 <a href='/Call'><Button><img src='/images/Contactus.png'/></Button></a>
-                <center><h6>Contact Us</h6></center>
+                <center><h4>Contact Us</h4></center>
             </div>
         </div>
     )

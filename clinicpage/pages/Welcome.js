@@ -1,13 +1,13 @@
+import Navbar1 from '../components/Navbar1.jsx';
 import Title from '../components/Title.jsx';
 import Whyus from '../components/Whyus.jsx';
 import Gallery from '../components/Gallery.jsx';
 import Footer from '../components/Footer.jsx';
-import Navbar from '../components/Navbar.jsx';
 
-const Home = () => {
+const Welcome = () => {
     return (
         <div>
-            <Navbar />
+            <Navbar1 />
             <Title />
             <Whyus />
             <Gallery />
@@ -16,4 +16,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Welcome;

@@ -21,7 +21,7 @@
     width: 1353px;
     height: 754px;
     margin: 40px 40px 0px 55px;
-    background-color: #6A6A6A;
+    background-color: #7E4647;
     text-align: left;
     border-radius: 40px;
     justify-content: space-between;
@@ -58,4 +58,35 @@
 
 .foot p{
     font-size: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 31px;
+    height: 31px;
+    margin-right: 20px;
+}
+
+.logo1 img {
+    width:28px;
+    height:27px;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    margin-top: -60px;
+}
+
+.foot h2 {
+    color: #F8BF87;
+    font-size: 30px;
+}
+
+.foot h3 {
+    font-size: 30px;
 }

@@ -5,9 +5,6 @@ import Navbar from './Navbar.jsx';
 const Title = () => {
     return (
         <div>
-            <div>
-                <Navbar />
-            </div>
             <div className={styles.container}>
                 <div>
                     <h5>Smile, it lets your teeth breathe.</h5>

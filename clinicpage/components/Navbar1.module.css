@@ -2,12 +2,16 @@
     background-color: #610C04;
     align-items: stretch;
     border:200px solid #610C04;
+    background-image: url('/images/Vector 3.png'), url('/images/vector 4.png');
+    background-repeat: no-repeat;
+    background-position: right;
     display: flex;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
     border-width: 0ch;
     list-style: none;
+    font-family: Roboto, sans-serif;
 }
 
 .container ul {
@@ -30,4 +34,9 @@
 
 .main {
     margin-right: 250px;
+}
+
+.container ul h1{
+    font-size: 20px;
+    font-family: roboto, sans-serif;
 }
