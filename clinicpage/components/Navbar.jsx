@@ -11,7 +11,7 @@ const Navbar = () => {
                 <a href='/Ser'><Button variant='primary'>Services</Button></a>
                 <a href='/Blo'><Button variant='primary'>Blog</Button></a>
                 <a href='/Car'><Button variant='primary'>Careers</Button></a>
-                <a href='/Log'><div className={styles.prior}><Button variant='secondary'>Log In</Button></div></a>
+                <a href='/Log'><div className={styles.prior}><Button variant='secondary'>Register/login</Button></div></a>
             </ul>
         </div>
     )

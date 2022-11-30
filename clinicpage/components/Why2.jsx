@@ -4,17 +4,17 @@ import Button from './Button.jsx';
 const Why2 = () => {
     return (
         <div className={styles.container}>
-            <div>
+            <div className={styles.con}>
                 <a href='/Ap'><Button><img src='/images/Appointment.png'/></Button></a>
-                <center><h4>Appointment</h4></center>
+                <center><h4>Book <br></br>Appointment</h4></center>
             </div>
             <div>
                 <a href='/Cal'><Button><img src='/images/Calendar.png'/></Button></a>
                 <center><h4>Calendar</h4></center>
             </div>
-            <div>
+            <div className={styles.con}>
                 <a href='/Schedule'><Button><img src='/images/Schedule.png'/></Button></a>
-                <center><h4>Schedule</h4></center>
+                <center><h4>Appointment <br></br>Status</h4></center>
             </div>
             <div>
                 <a href='/Call'><Button><img src='/images/Contactus.png'/></Button></a>

@@ -9,53 +9,48 @@ const Appoint = () => {
                 <NavbarG />
             </div>
             <div className={styles.container}>
-                <div className={styles.con}>
+               <center><h1>Book Appointment</h1></center>
+               <div className={styles.right}>
+                    <div className={styles.report}>
+                        <div  className={styles.logo}>
+                            <img src='/images/schedlogo.png'></img>
+                            <p>Appointment from Book Schedule</p>
+                        </div>
+                    </div>    
                     <ul>
-                        <li>
-                            <div className={styles.top}>
-                                <div>
-                                    <h3>Personal Information:</h3>
-                                </div>
-                                <div>
-                                    <input type="Name" placeholder="First Name"></input>
-                                    <input type="Name1" placeholder="Last Name"></input>
-                                </div>
-                                <div>
-                                    <input type="MPass" placeholder="Email"></input>
-                                </div>
-                                <div className={styles.gen}>
-                                    <h5>Gender:</h5>
-                                    <input type="checkbox" id="f" name="Female" value="hi"/>
-                                    <label for="f">Female</label>
-                                    <input type="checkbox" id="m" name="Male" value="hi"/>
-                                    <label for="f">Male</label>
-                                    <input type="checkbox" id="o" name="No" value="hi"/>
-                                    <label for="o">Prefer not to say</label>
-                                </div>
-                                <div>
-                                    <input type="Add" placeholder="Address:"></input>
-                                </div>
-                                <div>
-                                    <input type="Cont" placeholder="Contact(required):"></input>
-                                </div>
-                                <div>
-                                    <input type="Day" placeholder="Desired Date of Appointment      00/00/0000"></input>
-                                </div>
-                                <div>
-                                    <input type="Day" placeholder="Desired Time of Appointment           00:00"></input>
-                                </div>
-                                <div className={styles.button}>
-                                    <div className={styles.second}>
-                                        <Button variant='secondary'>Submit</Button>
-                                    </div>
-                                </div>
-                                <div className={styles.end}>
-                                    <p>Language</p>
-                                    <p>Terms</p>
-                                    <p>Help</p>
-                                </div>
-                            </div>
-                        </li>
+                        <input type='search' placeholder='Search...'></input>
+                    </ul>
+                    <ul className={styles.board}>
+                        <ul className={styles.bar}>
+                            <li><h6>Schedule Date</h6></li>
+                            <li><h6>Schedule Time</h6></li>
+                            <li><h6>Doctor's Name</h6></li>
+                            <li><h6>Specialization</h6></li>
+                            <li><h6>Action</h6></li>
+                        </ul>
+                        <ul className={styles.attend}>
+                            <li>December 23, 2022</li>
+                            <li>2:00 PM - 2:30 PM</li>
+                            <li>Maria Teresa F. Mateo <br></br>Campus Physician</li>
+                            <li>General Dentist</li>
+                            <li><a href='/Ap1'><Button variant='primary'>Book</Button></a></li>
+                        </ul>
+
+                        <ul className={styles.attend}>
+                            <li>December 17, 2022</li>
+                            <li>8:30 AM - 9:00 AM</li>
+                            <li>Sheryl P. Chavez <br></br>Campus Dentist</li>
+                            <li>General Dentist</li>
+                            <li><a href='/Ap1'><Button variant='primary'>Book</Button></a></li>
+                        </ul>
+
+                        <ul className={styles.attend}>
+                            <li>December 12, 2022</li>
+                            <li>10:00 AM - 10:30 AM</li>
+                            <li>Rosemae F. Rosete <br></br>Campus Nurse</li>
+                            <li>General Dentist</li>
+                            <li><a href='/Ap1'><Button variant='primary'>Book</Button></a></li>
+                        </ul>
                     </ul>
                 </div>
             </div>

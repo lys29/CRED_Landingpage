@@ -2,9 +2,6 @@
     background-color: #610C04;
     align-items: stretch;
     border:200px solid #610C04;
-    background-image: url('/images/Vector 3.png'), url('/images/vector 4.png');
-    background-repeat: no-repeat;
-    background-position: right;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +9,8 @@
     border-width: 0ch;
     list-style: none;
     font-family: Roboto, sans-serif;
+    height:300px;
+    margin-top: -90px;
 }
 
 .container ul {
@@ -39,4 +38,41 @@
 .container ul h1{
     font-size: 20px;
     font-family: roboto, sans-serif;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100px;
+}
+
+.drop{
+    margin-top: 40px;
+}
+  
+.content {
+    display: none;
+    position: absolute;
+    background-color: #610C04;
+    min-width: 100%;
+    z-index: 999;
+    min-height: 100%;
+}
+  
+.content Button {
+    color: white;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    margin-left: -60px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.content Button:hover {
+    background-color: #610C04
+}
+  
+.dropdown:hover .content {
+    display:block;
 }
