@@ -1,7 +1,7 @@
 import Appoint1 from '../midcom/Appoint1.jsx';
-import Navbar1G from '../components/Navbar1G';
+import Navbar1G from '../components/Navbar1G.jsx';
 
-const Ap1 = () => {
+const Ap112 = () => {
     return (
         <div>
             <Navbar1G />
@@ -10,4 +10,4 @@ const Ap1 = () => {
     )
 }
 
-export default Ap1;
+export default Ap112;

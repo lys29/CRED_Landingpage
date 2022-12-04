@@ -1,13 +1,9 @@
 import styles from './Talk.module.css';
-import NavbarG from '../component1/NavbarG.jsx';
 import Button from '../components/Button.jsx';
 
 const Talk = () => {
     return(
         <div>
-            <div>
-                <NavbarG />
-            </div>
             <div className={styles.container}>
                 <div className={styles.con}>
                 <h3>New Message:</h3>

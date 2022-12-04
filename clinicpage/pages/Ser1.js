@@ -1,13 +1,13 @@
 import Services from '../component1/Services.jsx';
-import NavbarB from '../component1/NavbarB.jsx';
+import Navbar1B from '../components/Navbar1B.jsx';
 
-const Ser = () => {
+const Ser1 = () => {
     return (
         <div>
-            <NavbarB />
+            <Navbar1B />
             <Services />
         </div>
     )
 }
 
-export default Ser;
+export default Ser1;

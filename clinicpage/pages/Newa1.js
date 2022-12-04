@@ -1,10 +1,10 @@
 import Create from '../com/Create.jsx';
-import NavbarG from '../component1/NavbarG.jsx';
+import Navbar1G from '../components/Navbar1G.jsx';
 
 const Newa = () => {
     return (
         <div>
-            <NavbarG />
+            <Navbar1G />
             <Create />
         </div>
     )

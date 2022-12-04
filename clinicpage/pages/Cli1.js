@@ -1,13 +1,13 @@
 import Clinic from '../component1/Clinic.jsx';
-import NavbarG from '../component1/NavbarG.jsx';
+import Navbar1G from '../components/Navbar1G.jsx';
 
-const Cli = () => {
+const Cli1 = () => {
     return (
         <div>
-            <NavbarG />
+            <Navbar1G />
             <Clinic />
         </div>
     )
 }
 
-export default Cli;
+export default Cli1;

@@ -1,13 +1,13 @@
 import Appoint from '../midcom/Appoint.jsx';
-import NavbarG from '../component1/NavbarG.jsx';
+import Navbar1G from '../components/Navbar1G.jsx';
 
-const Ap = () => {
+const Ap12 = () => {
     return (
         <div>
-            <NavbarG />
+            <Navbar1G />
             <Appoint />
         </div>
     )
 }
 
-export default Ap;
+export default Ap12;

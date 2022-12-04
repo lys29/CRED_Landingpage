@@ -1,12 +1,8 @@
 import styles from './Calendar.module.css';
-import NavbarB from '../component1/NavbarB.jsx';
 
 const Calendar = () =>{
     return (
         <div>
-            <div>
-                <NavbarB />
-            </div>
             <div className={styles.spread}>
                 <div className={styles.left}>
                     <img src='/images/blklogo.png'/>

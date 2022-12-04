@@ -1,13 +1,13 @@
 import Careers from '../component1/Careers.jsx';
-import NavbarB from '../component1/NavbarB.jsx';
+import Navbar1B from '../components/Navbar1B.jsx';
 
-const Car = () => {
+const Car1 = () => {
     return (
         <div>
-            <NavbarB />
+            <Navbar1B />
             <Careers />
         </div>
     )
 }
 
-export default Car;
+export default Car1;

@@ -1,13 +1,9 @@
 import styles from './Create.module.css';
-import NavbarG from '../component1/NavbarG.jsx';
 import Button from '../components/Button.jsx';
 
 const Create = () => {
     return (
         <div>
-            <div>
-                <NavbarG />
-            </div>
             <div className={styles.container}>
                 <div className={styles.con}>
                     <ul>

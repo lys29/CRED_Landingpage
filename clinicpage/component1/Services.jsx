@@ -1,12 +1,8 @@
 import styles from './Services.module.css';
-import NavBarB from './NavbarB.jsx';
 
 const Services = () =>{
     return (
         <div>
-            <div>
-                <NavBarB />
-            </div>
             <div className={styles.container}>
                 <ul>
                     <li>

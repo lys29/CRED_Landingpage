@@ -1,10 +1,10 @@
 import Sched from '../midcom/Sched.jsx';
-import NavbarG from '../component1/NavbarG.jsx';
+import Navbar1G from '../components/Navbar1G.jsx';
 
 const Schedule = () => {
     return (
         <div>
-            <NavbarG />
+            <Navbar1G />
             <Sched />
         </div>
     )

@@ -1,7 +1,7 @@
-import styles from './Navbar1.module.css';
+import styles from './Navbar1G.module.css';
 import Button from './Button.jsx';
 
-const Navbar1 = () => {
+const Navbar1G = () => {
     return (
         <div className={styles.container}>
             <ul>
@@ -24,4 +24,4 @@ const Navbar1 = () => {
     )
 }
 
-export default Navbar1;
+export default Navbar1G;

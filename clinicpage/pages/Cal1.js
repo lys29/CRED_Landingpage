@@ -1,13 +1,13 @@
 import Calendar from '../midcom/Calendar.jsx';
-import NavbarB from '../component1/NavbarB.jsx';
+import Navbar1B from '../components/Navbar1B.jsx';
 
-const Cal = () =>{
+const Cal1 = () =>{
     return (
         <div>
-            <NavbarB />
+            <Navbar1B />
             <Calendar />
         </div>
     )
 }
 
-export default Cal;
+export default Cal1;

@@ -1,12 +1,8 @@
 import styles from './Clinic.module.css';
-import NavbarG from './NavbarG.jsx';
 
 const Clinic = () => {
     return (
         <div>
-            <div>
-                <NavbarG />
-            </div>
             <div className={styles.container}>
                 <div className={styles.con}>
                     <h1>Technology <br></br>University of the <br></br>Philippines - <span>Cavite</span></h1>

@@ -1,13 +1,9 @@
 import styles from './Careers.module.css';
-import NavbarB from './NavbarB.jsx';
 import Button from '../components/Button.jsx';
 
 const Careers = () => {
         return (
             <div>
-                <div>
-                    <NavbarB />
-                </div>
                 <div className={styles.container}>
                     <div>
                         <h1>Be Part of Our Team!</h1>

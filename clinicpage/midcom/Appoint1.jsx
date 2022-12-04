@@ -1,13 +1,9 @@
 import styles from './Appoint1.module.css';
-import NavbarG from '../component1/NavbarG';
 import Button from '../components/Button';
 
 const Appoint1 = () =>{
     return(
         <div>
-            <div>
-                <NavbarG />
-            </div>
             <div className={styles.container}>
             <center><h1>Book Appointment</h1></center>
                <div className={styles.right}>

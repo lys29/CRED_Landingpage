@@ -1,13 +1,9 @@
 import styles from './Blog.module.css';
-import NavbarB from './NavbarB.jsx';
 import Button from '../components/Button.jsx';
 
 const Blog = () => {
     return (
         <div>
-            <div>
-                <NavbarB />
-            </div>
             <div className={styles.container}>
                 <div>
                     <center><h1>Blog</h1></center>

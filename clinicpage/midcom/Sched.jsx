@@ -1,13 +1,9 @@
 import styles from './Sched.module.css';
-import NavbarG from '../component1/NavbarG.jsx';
 import Button from '../components/Button.jsx';
 
 const Sched = () => {
     return (
         <div>
-            <div>
-                <NavbarG />
-            </div>
             <div className={styles.container}>
                <center><h1>Booked Appointment</h1></center>
                <div className={styles.right}>

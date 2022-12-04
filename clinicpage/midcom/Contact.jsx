@@ -1,12 +1,8 @@
 import styles from './Contact.module.css';
-import NavbarB from '../component1/NavbarB.jsx';
 
 const Contact = () =>{
     return(
         <div>
-            <div>
-                <NavbarB />
-            </div>
             <div className={styles.container}>
                 <ul>
                     <li>
@@ -19,7 +15,7 @@ const Contact = () =>{
                                     <h3>For more information.</h3>
                                     <h3>Contact us here:</h3>
                                     <div className={styles.logo}><img src='/images/user.png'/><p>+63 9912345678</p></div>
-                                    <div className={styles.logo}><img src='/images/msg.png'></img><p>sa_ngipin.mo@gmail.com</p></div>
+                                    <div className={styles.logo}><img src='/images/msg.png'></img><p>tupcavitedentist@gmail.com</p></div>
                                 </div>
                                 <div>
                                     <h2>Support</h2>
@@ -30,9 +26,9 @@ const Contact = () =>{
                                 </div>
                                 <div>
                                     <h2>Social Media</h2>
-                                    <div className={styles.logo1}><img src='/images/instagram.png'/><h6>https://www.instagram.com/sa_ngipin.mo</h6></div>
-                                    <div className={styles.logo1}><img src='/images/fb.png'/><h6>https://www.facebook.com/sa_ngipin.mo</h6></div>
-                                    <div className={styles.logo1}><img src='/images/tweet.png'/><h6>https://www.twitter.com/sa_ngipin.mo</h6></div>
+                                    <div className={styles.logo1}><img src='/images/instagram.png'/><h6>https://www.instagram.com/tupdentist.cavite</h6></div>
+                                    <div className={styles.logo1}><img src='/images/fb.png'/><h6>https://www.facebook.com/tupdentist.cavite</h6></div>
+                                    <div className={styles.logo1}><img src='/images/tweet.png'/><h6>https://www.twitter.com/tupdentist.cavite</h6></div>
                                 </div>
                             </div>
                     </li>

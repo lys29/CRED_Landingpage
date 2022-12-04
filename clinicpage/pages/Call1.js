@@ -1,13 +1,13 @@
 import Contact from '../midcom/Contact.jsx';
-import NavbarB from '../component1/NavbarB.jsx';
+import Navbar1B from '../components/Navbar1B.jsx';
 
-const Call = () => {
+const Call1 = () => {
     return (
         <div>
-            <NavbarB />
+            <Navbar1B />
             <Contact />
         </div>
     )
 }
 
-export default Call;
+export default Call1;
