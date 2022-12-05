@@ -17,3 +17,13 @@
 .con {
     margin-top: 21px;
 }
+
+.container img {
+    background-color:white;
+}
+
+.container button {
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+}

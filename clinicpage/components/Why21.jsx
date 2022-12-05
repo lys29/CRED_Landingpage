@@ -5,7 +5,7 @@ const Why21 = () => {
     return (
         <div className={styles.container}>
             <div className={styles.con}>
-                <a href='/Ap1'><Button><img src='/images/Appointment.png'/></Button></a>
+                <a href='/Ap'><Button><img src='/images/Appointment.png'/></Button></a>
                 <center><h4>Book <br></br>Appointment</h4></center>
             </div>
             <div>

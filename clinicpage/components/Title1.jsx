@@ -1,7 +1,15 @@
 import styles from './Title1.module.css';
 import Button from './Button.jsx';
+import Swal from 'sweetalert2';
 
 const Title1 = () => {
+    const Done = () => {
+        Swal.fire({
+            icon: "alert",
+            title:"ALREADY SIGNED IN",
+            text: "You are already signed up",
+        })
+    }
     return (
         <div>
             <div className={styles.container}>
@@ -11,7 +19,7 @@ const Title1 = () => {
                     <p>Our professional doctors will take care of your dental health. Set the best time and we are ready to help you.</p>
                     <div className={styles.con1}>
                         <a href='/Let1'><div className={styles.b1}><Button variant='secondary'>Let's Talk</Button></div></a>
-                        <a href='/Newa1'><div className={styles.b2}><Button variant='primary'>Make Account</Button></div></a>
+                        <div className={styles.b2}><button onClick={Done}>Make Account</button></div>
                     </div>
                 </div>
                 <div>

@@ -1,7 +1,15 @@
 import styles from './Careers.module.css';
 import Button from '../components/Button.jsx';
+import Swal from 'sweetalert2';
 
 const Careers = () => {
+    const submit = () => {
+        Swal.fire({
+            icon: "sucess",
+            title:"SUCCESSFULLY SUBMITTED!",
+            text: "Your resume has been send. Thank you for applying!",
+        })
+    }
         return (
             <div>
                 <div className={styles.container}>
@@ -30,7 +38,7 @@ const Careers = () => {
                                         <p><strong>No file chosen</strong></p>
                                     </div>
                                     <div className={styles.btn}>
-                                        <Button variant="primary"><strong>Submit</strong></Button>
+                                        <button onClick={submit}><strong>Submit</strong></button>
                                         <img src='/images/logo.png'></img>
                                     </div>
                                     <div className={styles.last1}>

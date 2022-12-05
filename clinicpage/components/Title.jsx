@@ -1,5 +1,4 @@
 import styles from './Title.module.css';
-import Button from './Button.jsx';
 
 const Title = () => {
     return (
@@ -10,8 +9,8 @@ const Title = () => {
                     <h1>Our Commitment to Dental health is to set to last forever.</h1>
                     <p>Our professional doctors will take care of your dental health. Set the best time and we are ready to help you.</p>
                     <div className={styles.con1}>
-                        <a href='/Let'><div className={styles.b1}><Button variant='secondary'>Let's Talk</Button></div></a>
-                        <a href='/Newa'><div className={styles.b2}><Button variant='primary'>Make Account</Button></div></a>
+                        <a href='/Let'><div className={styles.b1}><button>Let's Talk</button></div></a>
+                        <a href='/Newa'><div className={styles.b2}><button>Make Account</button></div></a>
                     </div>
                 </div>
                 <div>

@@ -1,7 +1,15 @@
 import styles from './Talk.module.css';
+import Swal from "sweetalert2";
 import Button from '../components/Button.jsx';
 
 const Talk = () => {
+    const Send = () => {
+        Swal.fire({
+            icon: "success",
+            title:"SUCCESSFULLY SENT",
+            text: "Your message was successfully sent to All active staff",
+        })
+    }
     return(
         <div>
             <div className={styles.container}>
@@ -22,10 +30,8 @@ const Talk = () => {
                             </div>
                             <textarea id="text" name="text" rows="10" cols="50"></textarea>
                             <div className={styles.last}>
-                                <div className={styles.second}>
-                                <Button variant='secondary'>Send</Button>
-                                </div>
-                                <Button variant='primary'><img src='/images/talkbar.png'></img></Button>
+                                <div className={styles.s}><button onClick={Send}>Send</button></div>
+                                <Button><img src='/images/talkbar.png'></img></Button>
                             </div>
                         </div>
                     </li>

@@ -1,5 +1,4 @@
 import styles from './Create.module.css';
-import Button from '../components/Button.jsx';
 
 const Create = () => {
     return (
@@ -30,10 +29,10 @@ const Create = () => {
                                 </div>
                                 <div className={styles.button}>
                                     <div className={styles.first}>
-                                        <a href='/Log'><Button variant='primary'>Sign in instead</Button></a>
+                                        <a href='/Log'><button>Sign in instead</button></a>
                                     </div>
                                     <div className={styles.second}>
-                                        <a href='/Log'><Button variant='secondary'>Submit</Button></a>
+                                        <a href='/Log'><button>Submit</button></a>
                                     </div>
                                 </div>
                                 <div className={styles.end}>

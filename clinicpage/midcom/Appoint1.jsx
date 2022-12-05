@@ -1,7 +1,15 @@
 import styles from './Appoint1.module.css';
 import Button from '../components/Button';
+import Swal from 'sweetalert2';
 
 const Appoint1 = () =>{
+    const Submit = () => {
+        Swal.fire({
+            icon: "alert",
+            title:"BOOKED SUCCESSFULLY",
+            text: "You've successfully booked an appointment",
+        })
+    }
     return(
         <div>
             <div className={styles.container}>
@@ -51,7 +59,7 @@ const Appoint1 = () =>{
                                         <div>
                                         <input type='text' placeholder='Contact Number:'></input>
                                         </div>
-                                        <Button variant='primary'>Submit</Button>
+                                        <button onClick={Submit}>Submit</button>
                                         </div>
                                     </li>
                                 </ul>

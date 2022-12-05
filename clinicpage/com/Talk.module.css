@@ -75,10 +75,13 @@
     display: flex;
 }
 
-.second Button {
+.s button {
     background-color: #33A9EC;
     font-size: 20px;
     color: white;
+    width: 127px;
+    height: 53px;
+    border-radius: 30px;
 }
 
 .last img {
